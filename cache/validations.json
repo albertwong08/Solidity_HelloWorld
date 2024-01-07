@@ -1,0 +1,235 @@
+{
+  "version": "3.4",
+  "log": [
+    {
+      "contracts/HelloWorld.sol:AWHelloWorld": {
+        "src": "contracts\\HelloWorld.sol:5",
+        "version": {
+          "withMetadata": "81abf0a4fdaca0e1075db131c853c9545d7a37515377f03d46084b0babf1d387",
+          "withoutMetadata": "301919b80815f5613f88230c532cc3fe2ad4781aad78b3807e757787bdb19ec3",
+          "linkedWithoutMetadata": "301919b80815f5613f88230c532cc3fe2ad4781aad78b3807e757787bdb19ec3"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "(string)",
+          "update(string)",
+          "append(string)",
+          "seeMessage()"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "AWHelloWorld",
+            "src": "contracts\\HelloWorld.sol:9"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "label": "message",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_string_storage",
+              "contract": "AWHelloWorld",
+              "src": "contracts\\HelloWorld.sol:7"
+            }
+          ],
+          "types": {
+            "t_string_storage": {
+              "label": "string",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true
+        },
+        "solcVersion": "0.8.18"
+      }
+    },
+    {
+      "contracts/HelloWorld.sol:AWHelloWorld": {
+        "src": "contracts\\HelloWorld.sol:4",
+        "version": {
+          "withMetadata": "c2419fa3c3462a29fa6f0915971cc65395c57760fa49aa0c2b4edacedc046cf5",
+          "withoutMetadata": "301919b80815f5613f88230c532cc3fe2ad4781aad78b3807e757787bdb19ec3",
+          "linkedWithoutMetadata": "301919b80815f5613f88230c532cc3fe2ad4781aad78b3807e757787bdb19ec3"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "(string)",
+          "update(string)",
+          "append(string)",
+          "seeMessage()"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "AWHelloWorld",
+            "src": "contracts\\HelloWorld.sol:8"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "label": "message",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_string_storage",
+              "contract": "AWHelloWorld",
+              "src": "contracts\\HelloWorld.sol:6"
+            }
+          ],
+          "types": {
+            "t_string_storage": {
+              "label": "string",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true
+        },
+        "solcVersion": "0.8.18"
+      }
+    },
+    {
+      "contracts/HelloWorld.sol:AWHelloWorld": {
+        "src": "contracts\\HelloWorld.sol:4",
+        "version": {
+          "withMetadata": "ea49070858d627d0e6adf22d3ddfca9b9ce45fe43fe47aba7d99dc6011ac0ab6",
+          "withoutMetadata": "aba8536acf0c5bab21e6ab01f05225c2b17ca3623b4974708fceea433cb1d511",
+          "linkedWithoutMetadata": "aba8536acf0c5bab21e6ab01f05225c2b17ca3623b4974708fceea433cb1d511"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "(string)",
+          "update(string)",
+          "append(string)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "AWHelloWorld",
+            "src": "contracts\\HelloWorld.sol:8"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "label": "message",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_string_storage",
+              "contract": "AWHelloWorld",
+              "src": "contracts\\HelloWorld.sol:6"
+            }
+          ],
+          "types": {
+            "t_string_storage": {
+              "label": "string",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true
+        },
+        "solcVersion": "0.8.18"
+      }
+    },
+    {
+      "contracts/HelloWorld.sol:AWHelloWorld": {
+        "src": "contracts\\HelloWorld.sol:4",
+        "version": {
+          "withMetadata": "275457797e2a8bf36f679ec5c2e5bc5bf19bc621a840f53ff958171fc14499f4",
+          "withoutMetadata": "325071dcc6ffd0a1b47e87f72ddace8792de1dbdc5f98371d79bd2510feb37e4",
+          "linkedWithoutMetadata": "325071dcc6ffd0a1b47e87f72ddace8792de1dbdc5f98371d79bd2510feb37e4"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "(string)",
+          "update(string)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "AWHelloWorld",
+            "src": "contracts\\HelloWorld.sol:8"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "label": "message",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_string_storage",
+              "contract": "AWHelloWorld",
+              "src": "contracts\\HelloWorld.sol:6"
+            }
+          ],
+          "types": {
+            "t_string_storage": {
+              "label": "string",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true
+        },
+        "solcVersion": "0.8.18"
+      }
+    },
+    {
+      "contracts/HelloWorld.sol:HelloWorld": {
+        "src": "contracts\\HelloWorld.sol:4",
+        "version": {
+          "withMetadata": "0e653572e20a5f2df9dc8be9c203415506b67279a29955c3999115fa2fcc750b",
+          "withoutMetadata": "325071dcc6ffd0a1b47e87f72ddace8792de1dbdc5f98371d79bd2510feb37e4",
+          "linkedWithoutMetadata": "325071dcc6ffd0a1b47e87f72ddace8792de1dbdc5f98371d79bd2510feb37e4"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "(string)",
+          "update(string)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "HelloWorld",
+            "src": "contracts\\HelloWorld.sol:8"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "label": "message",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_string_storage",
+              "contract": "HelloWorld",
+              "src": "contracts\\HelloWorld.sol:6"
+            }
+          ],
+          "types": {
+            "t_string_storage": {
+              "label": "string",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true
+        },
+        "solcVersion": "0.8.18"
+      }
+    }
+  ]
+}
