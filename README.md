@@ -24,4 +24,4 @@ npm install --save-dev hardhat
    Account balance: XXXXXXXXXXXXXXXXXX
    Token address: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
    The token address is where the contract is deployed to.
-9. 
+8. Run interact.js to interact with the deployed smart contract. You can update the address in the .env file.
