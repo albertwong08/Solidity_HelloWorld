@@ -4,7 +4,7 @@ require('dotenv').config();
 //require("@nomicfoundation/hardhat-verify");
 //require("@nomiclabs/hardhat-etherscan")
 
-const { ALCHEMY_API_KEY, PRIVATE_KEY } = process.env;
+const { ALCHEMY_API_KEY, PRIVATE_KEY, ETHERSCAN_API_KEY } = process.env;
 
 /** @type import('hardhat/config').HardhatUserConfig */
 /**module.exports = {
@@ -21,7 +21,7 @@ const { ALCHEMY_API_KEY, PRIVATE_KEY } = process.env;
 module.exports = {
     solidity: "0.8.18",
     etherscan: {
-        apiKey:"38R2V9RP59DVU13TYBU23DSQA3QAJ5V2F8",
+        apiKey:[ETHERSCAN_API_KEY],
     },
     networks: {
         sepolia: {

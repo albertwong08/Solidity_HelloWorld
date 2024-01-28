@@ -36,6 +36,42 @@
       "artifacts": [
         "AWHelloWorld"
       ]
+    },
+    "C:\\Workspace\\Solidity_HelloWorld\\contracts\\HelloWorld.sol": {
+      "lastModificationDate": 1705221059586,
+      "contentHash": "3cc23b07bc175c2abe120c4ce889a6a6",
+      "sourceName": "contracts/HelloWorld.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "AWHelloWorld"
+      ]
     }
   }
 }
